@@ -1,0 +1,76 @@
+body {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   height: 100%;
+   background: url("../images/cover.jpg") no-repeat fixed center;
+   background-size: cover;
+   display: block;
+   text-align: center;
+}
+
+#cover {
+   margin-top: 10%;
+   margin-bottom: 30%;
+}
+
+#cover h1 {
+   color: orange;
+   font-size: 400%;
+}
+
+#cover h3 {
+   color: orange;
+   font-size: 200%;
+   margin-bottom: 5%;
+}
+
+#cover a {
+   text-decoration: none;
+   text-align: center;
+   color: white;
+   margin: 0;
+   padding: 15px 15px;
+   background-color: red;
+   display: inline-block;
+}
+
+#cover a:hover {
+   background-color: rgb(251, 216, 89);
+}
+
+.section {
+   background-color: white;
+   padding: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.section div {
+   margin: 0;
+   width: 50%;
+}
+
+.section p {
+   font-size: 22px;
+   width: 50%;
+   display: inline-block;
+}
+
+#fi1 {
+   background: url("https://www.w3schools.com/w3css/img_lights.jpg");
+}
+
+#fi2 {
+   background: url("https://i2.wp.com/beebom.com/wp-content/uploads/2016/01/Reverse-Image-Search-Engines-Apps-And-Its-Uses-2016.jpg?resize=640%2C426");
+}
+
+#fi1, #fi2 {
+   margin: 0;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   height: 100vh;
+}
